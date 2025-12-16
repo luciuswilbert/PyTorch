@@ -1,4 +1,4 @@
 import torch
 
-data = torch.tensor([[1, 2, 3, 4, 5], [5, 6, 7, 8, 9]])
-print(data.stride())
+data_a = torch.randn(2, 3, 5)
+print(data_a.view(2, 15))
