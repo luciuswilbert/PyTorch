@@ -1,4 +1,4 @@
 import torch
 
-data_a = torch.randn(2, 3, 5)
-print(data_a.view(2, 15))
+data = torch.randn(3, 3)
+print(data, torch.argmax(data), torch.argmin(data))
