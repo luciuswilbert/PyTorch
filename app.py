@@ -1,4 +1,4 @@
 import torch
 
-data = torch.zeros([3, 3], dtype=torch.int64)
+data = torch.full([3, 4], 3.14, dtype=torch.float64)
 print(data)
