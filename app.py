@@ -1,4 +1,4 @@
 import torch
 
-data = torch.full([3, 4], 3.14, dtype=torch.float64)
-print(data)
+data = torch.tensor([[1, 2, 3, 4, 5], [5, 6, 7, 8, 9]])
+print(data.stride())
